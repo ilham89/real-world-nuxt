@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>Events</h1>
-
     <EventCard
       v-for="(event, index) in events"
       :key="index"
